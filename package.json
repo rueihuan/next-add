@@ -1,0 +1,9 @@
+{
+  "name": "next-add-nest",
+  "version": "1.0.0",
+  "author": "Ruei-Huan <rueihuan@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "next-add-nest": "src/index.js"
+  }
+}
