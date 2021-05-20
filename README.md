@@ -1,18 +1,18 @@
-## Next-Add-Nest
+# Next-Add-Nest
 
-### Prerequisites
+## Prerequisites
 
 1. Setup a Next.js Project. If you have no idea how to do it, please go to https://nextjs.org/docs
 
 2. Integrate Next.js with Typescript. If you have no idea how to do it, please go to https://nextjs.org/docs/basic-features/typescript
 
-### Installation
+## Installation
 
 ```
 npx next-add-nest
 ```
 
-### GraphQL Support
+## GraphQL Support
 
 In addition to https://docs.nestjs.com/graphql/quick-start, manually finish the following:
 
@@ -30,10 +30,10 @@ GraphQLModule.forRoot({
 }
 ```
 
-### To Do 
+## To Do 
 
 - [ ] Accept Args
 - [ ] Testing Library
 
-### References
+## References
 https://simonknott.de/articles/Integrating-NextJS-with-NestJS.html
