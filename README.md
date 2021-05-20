@@ -14,7 +14,7 @@ npx next-add-nest
 
 ## GraphQL Support
 
-In addition to https://docs.nestjs.com/graphql/quick-start, manually finish the following:
+In addition to https://docs.nestjs.com/graphql/quick-start, manually append the following:
 
 ```ts
 // app.module.ts
@@ -32,8 +32,8 @@ GraphQLModule.forRoot({
 
 ## To Do 
 
-- [ ] Accept Args
-- [ ] Testing Library
+- [ ] Accept args
+- [ ] Add testing library
 
 ## References
 https://simonknott.de/articles/Integrating-NextJS-with-NestJS.html
