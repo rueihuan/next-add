@@ -1,12 +1,12 @@
 // server/main.ts
 
-module.exports = `import { Server } from "http";
-import { NextApiHandler } from "next";
+module.exports = `import { Server } from 'http';
+import { NextApiHandler } from 'next';
 
-import { NestFactory } from "@nestjs/core";
-import { INestApplication } from "@nestjs/common";
+import { NestFactory } from '@nestjs/core';
+import { INestApplication } from '@nestjs/common';
 
-import { AppModule } from "./app.module";
+import { AppModule } from './app.module';
 
 export module Backend {
   let app: INestApplication;
