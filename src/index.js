@@ -8,6 +8,8 @@ const catchAll = require("../constants/pages/api/[...catchAll].tsx");
 const appModule = require("../constants/server/app.module.ts");
 const main = require("../constants/server/main.ts");
 const babelrc = require("../constants/.babelrc");
+const eslintrc = require("../constants/.eslintrc");
+const prettierrc = require("../constants/.prettierrc");
 const nestCli = require("../constants/nest-cli.json");
 const tsConfig = require("../constants/tsconfig.json");
 
@@ -98,6 +100,22 @@ function setupFiles() {
   } catch (err) {
   } finally {
     fs.writeFileSync(dir, babelrc);
+  }
+
+  try {
+    dir = "./.eslintrc.js";
+    fs.renameSync(dir, dir + postfix);
+  } catch (err) {
+  } finally {
+    fs.writeFileSync(dir, eslintrc);
+  }
+
+  try {
+    dir = "./.prettierrc";
+    fs.renameSync(dir, dir + postfix);
+  } catch (err) {
+  } finally {
+    fs.writeFileSync(dir, prettierrc);
   }
 
   try {
