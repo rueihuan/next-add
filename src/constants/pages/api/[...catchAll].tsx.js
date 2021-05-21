@@ -1,6 +1,6 @@
 // pages/api/[...catchAll].tsx
 
-module.exports = `import { Backend } from '../../server/main';
+module.exports = /* javascript */ `import { Backend } from '../../server/main';
 import { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {

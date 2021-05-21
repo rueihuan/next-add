@@ -1,6 +1,6 @@
 // server/main.ts
 
-module.exports = `import { Server } from 'http';
+module.exports = /* javascript */ `import { Server } from 'http';
 import { NextApiHandler } from 'next';
 
 import { NestFactory } from '@nestjs/core';

@@ -12,6 +12,8 @@
 npx next-add-nest
 ```
 
+Finally, you should manually process the files with names similar to *.bak.1621557880
+
 ## GraphQL Support
 
 In addition to https://docs.nestjs.com/graphql/quick-start, manually append the following:
