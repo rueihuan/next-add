@@ -16,7 +16,7 @@
 npx next-add-nest
 ```
 
-Finally, you should manually process the files with names similar to *.bak.1621557880
+PS: You should manually process the files with names similar to _*.bak.1621557880_
 
 ## GraphQL Support
 

@@ -4,14 +4,14 @@
 
 const fs = require("fs");
 
-const catchAll = require("./constants/pages/api/[...catchAll].tsx");
-const appModule = require("./constants/server/app.module.ts");
-const main = require("./constants/server/main.ts");
-const babelrc = require("./constants/.babelrc");
-const eslintrc = require("./constants/.eslintrc");
-const prettierrc = require("./constants/.prettierrc");
-const nestCli = require("./constants/nest-cli.json");
-const tsConfig = require("./constants/tsconfig.json");
+const catchAll = require("./templates/pages/api/[...catchAll].tsx");
+const appModule = require("./templates/server/app.module.ts");
+const main = require("./templates/server/main.ts");
+const babelrc = require("./templates/.babelrc");
+const eslintrc = require("./templates/.eslintrc");
+const prettierrc = require("./templates/.prettierrc");
+const nestCli = require("./templates/nest-cli.json");
+const tsConfig = require("./templates/tsconfig.json");
 
 fs.readFile("./package.json", "utf8", (err, jsonString) => {
   if (err) {

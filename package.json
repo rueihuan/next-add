@@ -1,6 +1,6 @@
 {
   "name": "next-add-nest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Seamlessly integrating Next.js with Nest.js",
   "author": "Ruei-Huan <rueihuan@outlook.com>",
   "license": "MIT",
