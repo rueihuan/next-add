@@ -59,11 +59,11 @@ function setupPackages() {
   const lintPackages =
     "@typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier prettier";
 
-  const child_process = require("child_process");
-  child_process.execSync(`${installSave} ${corePackages} ${morePackages}`, {
+  const proc = require("child_process");
+  proc.execSync(`${installSave} ${corePackages} ${morePackages}`, {
     stdio: [0, 1, 2],
   });
-  child_process.execSync(
+  proc.execSync(
     `${installSaveDev} ${nestPackages} ${babelPackages} ${testingPackages} ${typesPackages} ${lintPackages}`,
     {
       stdio: [0, 1, 2],

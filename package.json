@@ -1,9 +1,24 @@
 {
   "name": "next-add-nest",
   "version": "1.0.3",
+  "description": "Seamlessly integrating Next.js with Nest.js",
   "author": "Ruei-Huan <rueihuan@outlook.com>",
   "license": "MIT",
   "bin": {
     "next-add-nest": "src/index.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rueihuan/next-add-nest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rueihuan/next-add-nest/issues"
+  },
+  "homepage": "https://github.com/rueihuan/next-add-nest#readme",
+  "keywords": [
+    "next",
+    "nest",
+    "integration",
+    "ts"
+  ]
 }
