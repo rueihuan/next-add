@@ -1,4 +1,8 @@
-# Next-Add-Nest
+<h1 align="center">Next Add Nest</h1>
+
+<p align="center">
+  <strong>Seamlessly integrating Next.js with Nest.js</strong>
+</p>
 
 ## Prerequisites
 
@@ -8,7 +12,7 @@
 
 ## Installation
 
-```
+```sh
 npx next-add-nest
 ```
 
@@ -25,7 +29,7 @@ GraphQLModule.forRoot({
 }),
 ```
 
-```json
+```ts
 // nest-cli.json
 "compilerOptions": {
   "plugins": ["@nestjs/graphql/plugin"]
